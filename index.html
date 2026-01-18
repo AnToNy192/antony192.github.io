@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>AnToNy192</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antony192</title>
 
-<style>
-body {
-    margin: 0;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #12001f, #3b0066);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    color: white;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-.container {
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-}
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f001a, #3a0a6a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
 
-.avatar {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    border: 3px solid #a855f7;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.45);
+            padding: 30px 25px;
+            border-radius: 20px;
+            width: 100%;
+            max-width: 360px;
+            box-shadow: 0 0 25px rgba(170, 0, 255, 0.6);
+        }
 
-h1 {
-    margin-bottom: 20px;
-}
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #b266ff;
+            margin-bottom: 15px;
+            box-shadow: 0 0 20px rgba(178, 102, 255, 0.9);
+        }
 
-.link {
-    display: block;
-    background: #6d28d9;
-    padding: 14px;
-    margin: 12px 0;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
+        h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
 
-.link:hover {
-    background: #8b5cf6;
-    transform: scale(1.05);
-}
-</style>
+        p {
+            font-size: 14px;
+            color: #d9b3ff;
+            margin-bottom: 20px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(135deg, #7b2cff, #b266ff);
+            padding: 14px;
+            margin: 10px 0;
+            border-radius: 12px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 0 12px rgba(178, 102, 255, 0.7);
+        }
+
+        .links a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(178, 102, 255, 1);
+        }
+
+        footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #c299ff;
+        }
+    </style>
 </head>
-
 <body>
-<div class="container">
-  <img class="avatar" src="kirito.jpg" alt="Kirito">
-    <h1>AnToNy192</h1>
 
-    <a class="link" href="https://www.instagram.com/antony192brj/" target="_blank">Instagram</a>
-    <a class="link" href="https://www.tiktok.com/@antony192vlr" target="_blank">TikTok</a>
-    <a class="link" href="https://www.youtube.com/@AnToNy192vlr" target="_blank">YouTube</a>
-    <a class="link" href="https://x.com/antony192vlr" target="_blank">Twitter / X</a>
-</div>
+    <div class="container">
+        <!-- IMAGEM -->
+        <img
+            class="avatar"
+            src="https://wallpapercave.com/wp/wp1810646.jpg"
+            alt="Kirito">
+
+        <h1>Antony192</h1>
+        <p>Bem-vindo ao meu site</p>
+
+        <div class="links">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://tiktok.com" target="_blank">TikTok</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+            <a href="https://github.com/antony192" target="_blank">GitHub</a>
+        </div>
+
+        <footer>
+            © 2026 Antony192
+        </footer>
+    </div>
+
 </body>
 </html>
+
